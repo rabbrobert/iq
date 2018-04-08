@@ -255,7 +255,7 @@
 	 
      float: left;
 	 padding: 2px; 
-	background: rgba(183,185,185,0,9); 
+	background: rgba(183,185,185,0.9); 
 }
 .titel {
      grid-area: titel;
