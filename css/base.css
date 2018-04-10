@@ -1,6 +1,6 @@
 .clock {
     font-family: sans-serif;
-    color: #3f3f3f;
+    color: #ffffff;
     text-align: center;
     list-style-type: none;
     padding-top: 25px;
@@ -33,14 +33,72 @@ header {
     font-family: 'Alegreya Sans', sans-serif;
 }
 
+/*clock*/
+
+.jumbotron2 {
+    background-color: #3f3f3f;
+    margin-left: -8px;
+    margin-right: -8px;
+    
+    
+}
+/*content*/
+
+.h2-1, .h3-1 {
+    text-align: center;
+    font-family: 'Alegreya Sans', sans-serif;
+}
+section {
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    
+    
+}
+
+/* Test Text */
+
+.text-1 {
+    width: 45%;
+}
+@media screen and (max-width:1000px){
+    .table-1 {
+        width:100%;
+        margin: auto;
+    }
+    .text-1 {
+        width: 100%;
+        text-align: center;
+    }
+}
+.text-1 p{
+    font-size: 1.1em;
+}
+
+
 /* Table */
 
 .table-1 {
-    width:auto;
-}
-.table-1 td{
+    width: 45%;
     
 }
+.table-1 {
+    width:auto;
+}
+.select-css-color, .select-css-drink, .select-css-cigar, .select-css-animal, .select-css-nation {
+    width: 100%;
+    padding-left: 5px;
+    padding-right: 5px;
+    background-color: #6896b0;
+    color: #ffffff;
+}
+
 .td-first {
     padding-left: 5px;
     padding-right: 5px;
@@ -50,90 +108,4 @@ header {
     padding-left: 5px;
     padding-right: 5px;
     
-}
-
-
-
-
-/* Eredeti CSS ből */
-.selecboxesl {
-    display: block;
-    float: left;
-    width: 100%;
-    
-}
-
-.otext {
-	text-align: left;
-	/*display: table;*/ 
-    display: block;
-	width: 100%;
-    max-width: 10%;
-	max-height: auto;
-	padding-right: 10%;
-    float: left;
-    padding: 2px; 
-    /*box-shadow: 2px 2px 5px 1px rgba(0,0,0,0.0);*/
-    border-radius: 3px;
-    color: rgba(0,0,0,1.0);
-	background: rgba(205,5,205,0); 
-}
-
-/* drop down */
-
- .select-css-color {
-	 width: 10%;
-    max-width: 10%;
-	max-height: auto;
-    float: left;
-    padding: 2px; 
-    box-shadow: 2px 2px 5px 1px rgba(0,0,0,0.3);
-    border-radius: 3px;
-	font-size: 15px;
-	background: rgba(155,144,155,0.8);
-}
-.select-css-nation {
-	width: 10%;
-    max-width: 10%;
-	max-height: auto;
-    float: left;
-    padding: 2px; 
-    box-shadow: 2px 2px 5px 1px rgba(0,0,0,0.3);
-    border-radius: 3px;
-	font-size: 15px;
-	background: rgba(155,155,155,0.8);
-}
-.select-css-drink {
-	width: 10%;
-    max-width: 10%;
-	max-height: auto;
-    float: left;
-    padding: 2px; 
-    box-shadow: 2px 2px 5px 1px rgba(0,0,0,0.3);
-    border-radius: 3px;
-	font-size: 15px;
-	background: rgba(155,155,155,0.8);
-}
-
-.select-css-animal {
-	width: 10%;
-    max-width: 10%;
-	max-height: auto;
-    float: left;
-    padding: 2px; 
-    box-shadow: 2px 2px 5px 1px rgba(0,0,0,0.3);
-    border-radius: 3px;
-	font-size: 15px;
-	background: rgba(155,155,155,0.8);
-}
-.select-css-cigar {
-	width: 10%;
-    max-width: 10%;
-	max-height: auto;
-    float: left;
-    padding: 2px; 
-    box-shadow: 2px 2px 5px 1px rgba(0,0,0,0.3);
-    border-radius: 3px;
-	font-size: 15px;
-	background: rgba(155,155,155,0.8);
 }
