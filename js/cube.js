@@ -37,7 +37,6 @@ var drinkchoosen = [0,0,0,0,0];
 var animalchoosen = [0,0,0,0,0];
 var cigarchoosen = [0,0,0,0,0];
 
- //var current_locale = getCurrentLocale();
 window.onload = function() {
 var	h1 = document.getElementById("cl");
 	var	nds = 0; 
@@ -47,7 +46,6 @@ var	h1 = document.getElementById("cl");
 	var	seconds=0;
 	var	minutes=0;
 	var	hours=0;
-	//console.log(current_locale);
 function add(){
 		seconds++;
 		if (seconds >= 60) {
@@ -89,12 +87,12 @@ function checkResult(){
 			alert("congratution, you solved!");
 			stop();
 	}
-	/*console.log(colorchoosen +" " + colr);
+	console.log(colorchoosen +" " + colr);
 	console.log(nationchoosen +" " + nationr);
 	console.log(animalchoosen+ "  " + animalr);
 	console.log(cigarchoosen+ "  " + cigarr);
 	console.log(drinkchoosen+ "  " + drinkr);
-	*/
+	
 }
 var started=false;
 var droplistcolor= document.getElementsByClassName("select-css-color");
@@ -114,7 +112,22 @@ for(var i = 0, j = droplistcolor.length; i < j; i++)
 		  var selCol = colorCols[this.id];
 		  colorchoosen[selCol ] = this.selectedIndex;
 		  checkResult();
-		  
+		   /*
+		  var selCol = colorCols[this.id];
+		  var lastColor=colorchoosen[selCol ];
+		  var newColor = this.selectedIndex;
+		  colorchoosen[selCol ] = this.selectedIndex;
+		 // console.log(colorchoosen.length);
+		 if (lastColor == 0){  //delete form other columns
+			for (var x=0; x < colorchoosen.length;x++){
+				if (x==selCol){
+					continue;
+				}
+				console.log(x+" "+colorchoosen[x]); 
+				droplistcolor[x].remove(newColor);
+			} 
+		 }	
+		 */
 		 if (started == false){
 			startT();
 			started = true;

@@ -151,55 +151,28 @@
 
 .grid{
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows:  29% 1fr 1fr ; 
-  grid-template-areas: " clocka titles "
-                        "lboxes ttext "
-                        
-  
+  grid-template-columns: 1fr 1fr; 
   /*background: rgba(177,177,0,0.6	); */
 }
 .grid div:nth-child(even){
   width: 100%;
   opacity: 0.9;
- /* background:  green;*/
+  /*background:  green;*/
   /*background: rgba(255,177,0,0.6	); */
 }
 .grid div:nth-child(odd){
   width:  100%;
  opacity: 0.9; 
-/* background: red;*/
+ /*background: red;*/
  /*background: rgba(12,177,0,0.6	); */
 }
-
-.grid2{
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr; 
-  /*background: rgba(177,177,0,0.6	); */
-}
-.grid2 div:nth-child(even){
-  width: 100%;
-  opacity: 0.9;
-  background:  yellow;
-  /*background: rgba(255,177,0,0.6	); */
-}
-.grid2 div:nth-child(odd){
-  width:  100%;
- opacity: 0.9; 
- background: blue;
- /*background: rgba(12,177,0,0.6	); */
-}
-
 
 .ttext {
-    grid-area: ttext;
-    justify-self: left;
 	display: block; 
 	width: 100% ;
     max-width: 100%;
-    height: 80%;
 	padding-right: 2px;
-  /*position: absolute;*/
+ /* position: absolute;*/
   /*background-color: green;*/
   filter: alpha(opacity=60);
   opacity: 0.8;
@@ -212,22 +185,19 @@
 }
 
 .otext {
-    grid-area: otext;
-	 text-align: left;
+	text-align: left;
 	/*display: table;*/ 
-	 display: block;
-	 width: 100%;
+    display: block;
+	width: 100%;
     max-width: 10%;
-	max-height: 10%;;
-    
-	padding-right: 10%;
 	max-height: auto;
+	padding-right: 10%;
     float: left;
     padding: 2px; 
     box-shadow: 2px 2px 5px 1px rgba(0,0,0,0.0);
     border-radius: 3px;
-	 font-size: 1.1vw;
-	 color: rgba(0,0,0,1.0);
+    font-size: 1.1vw;
+    color: rgba(0,0,0,1.0);
 	background: rgba(205,5,205,0); 
 }	
 
@@ -245,43 +215,34 @@
 }
 
 .bord {
-  
 	 display: block;
 	 width: 57%;
 	 max-width: 98%;
 	 font-size: 2.9vw;
-	 height: 50%;
-      grid-area: clocka;
+	 height: auto;
 	 
      float: left;
 	 padding: 2px; 
-	background: rgba(183,185,185,0.9); 
-}
-.titel {
-     grid-area: titel;
-    background: rgba(155,155,155,0.5);
-    
-}
+	background: rgba(183,185,185,0,9); 
+}	
 
-.lboxes {
-     grid-area: "lboxes"
-	 display: flow-root;
+.selecboxesl {
+	 display: block;
 	 width: 100%;
 	 height: auto;
        float: left;
     padding: 1px; 
 	color: rgba(200,200,200,0.9);
-	/*background: rgba(177,177,177,0.9	);*/
-	background: rgba(155,155,155,0.5); 
+	background: rgba(177,177,177,0.9	);
+	/*background: rgba(155,155,155,0); */
 }
 .selecboxesr {
-	 display: flow-root;
+	 display: block;
 	 width: 100%;
 	 height: auto;
        float: right;
     padding: 1px; 
-	color: rgba(200,200,200,0.9);
-  	background: rgba(155,155,155,0);
+  	background: rgba(177,177,177,0.9);
 	/*background: rgba(155,155,155,0); */
 }		
 
@@ -304,25 +265,6 @@
   overflow: hidden;
   padding: 2px; 
   background: rgba(15,245,245,0.9);
-}
-
-.clock_2 {
-   /* position: absolute; */
-    display: block;
-    top: 10%;
-    left: 20%;
-    width: 10%;
-    max-width: 100%;
-    height: 100%;
-    
-    float:left;
-    transform: translateX(-50%) translateY(-50%);
-    color: #17D4FE;
-    font-size: 40px;
-    font-family: Orbitron;
-    letter-spacing: 7px;
-
-
 }
 
 .clock::before, .clock::after {
@@ -356,14 +298,13 @@
 }
 
 .jumbotron2 {
-     
 	resize: both;
 	background-image: url(../img/image1.png);
-	/*background-size: cover;*/
+	background-size: cover;
     background-repeat: no-repeat;
 	width: 100%;
     height: auto;
-    padding: 4px 4px;
+    padding: 80px 40px;
     margin: 0;
     /*font-size: 16px;*/
 }

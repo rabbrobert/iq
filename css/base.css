@@ -1,0 +1,139 @@
+.clock {
+    font-family: sans-serif;
+    color: #3f3f3f;
+    text-align: center;
+    list-style-type: none;
+    padding-top: 25px;
+    font-size: 2.3em;
+    
+}
+
+/* Header */
+
+header {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    /* Háttér - parallax effekt*/
+    background-image: url("../img/bcg.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 65%;
+    margin-top: -8px;
+    margin-right: -8px;
+    margin-left: -8px;
+    border-bottom: 5px solid #3f3f3f;
+}
+.header-content {
+    text-align: center;
+    color: #3f3f3f;
+    font-family: 'Alegreya Sans', sans-serif;
+}
+
+/* Table */
+
+.table-1 {
+    width:auto;
+}
+.table-1 td{
+    
+}
+.td-first {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.select-base {
+    width: 100%;
+    padding-left: 5px;
+    padding-right: 5px;
+    
+}
+
+
+
+
+/* Eredeti CSS ből */
+.selecboxesl {
+    display: block;
+    float: left;
+    width: 100%;
+    
+}
+
+.otext {
+	text-align: left;
+	/*display: table;*/ 
+    display: block;
+	width: 100%;
+    max-width: 10%;
+	max-height: auto;
+	padding-right: 10%;
+    float: left;
+    padding: 2px; 
+    /*box-shadow: 2px 2px 5px 1px rgba(0,0,0,0.0);*/
+    border-radius: 3px;
+    color: rgba(0,0,0,1.0);
+	background: rgba(205,5,205,0); 
+}
+
+/* drop down */
+
+ .select-css-color {
+	 width: 10%;
+    max-width: 10%;
+	max-height: auto;
+    float: left;
+    padding: 2px; 
+    box-shadow: 2px 2px 5px 1px rgba(0,0,0,0.3);
+    border-radius: 3px;
+	font-size: 15px;
+	background: rgba(155,144,155,0.8);
+}
+.select-css-nation {
+	width: 10%;
+    max-width: 10%;
+	max-height: auto;
+    float: left;
+    padding: 2px; 
+    box-shadow: 2px 2px 5px 1px rgba(0,0,0,0.3);
+    border-radius: 3px;
+	font-size: 15px;
+	background: rgba(155,155,155,0.8);
+}
+.select-css-drink {
+	width: 10%;
+    max-width: 10%;
+	max-height: auto;
+    float: left;
+    padding: 2px; 
+    box-shadow: 2px 2px 5px 1px rgba(0,0,0,0.3);
+    border-radius: 3px;
+	font-size: 15px;
+	background: rgba(155,155,155,0.8);
+}
+
+.select-css-animal {
+	width: 10%;
+    max-width: 10%;
+	max-height: auto;
+    float: left;
+    padding: 2px; 
+    box-shadow: 2px 2px 5px 1px rgba(0,0,0,0.3);
+    border-radius: 3px;
+	font-size: 15px;
+	background: rgba(155,155,155,0.8);
+}
+.select-css-cigar {
+	width: 10%;
+    max-width: 10%;
+	max-height: auto;
+    float: left;
+    padding: 2px; 
+    box-shadow: 2px 2px 5px 1px rgba(0,0,0,0.3);
+    border-radius: 3px;
+	font-size: 15px;
+	background: rgba(155,155,155,0.8);
+}
