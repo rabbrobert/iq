@@ -3,14 +3,26 @@
     color: #ffffff;
     text-align: center;
     list-style-type: none;
-    padding-top: 25px;
     font-size: 2.3em;
     
 }
 
+body {
+    width: 1140px;
+    margin: auto;
+    -webkit-box-shadow: 0px 0px 9px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 9px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 9px 0px rgba(0,0,0,0.75);
+}
+@media screen and (max-width:1245px){
+    body {
+        width:100%;
+    }
+}
 /* Header */
 
 header {
+    margin-top: 50px;
     display: flex;
     align-content: center;
     justify-content: center;
@@ -21,10 +33,10 @@ header {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 65%;
-    margin-top: -8px;
+    height: 30%;
+    /*margin-top: -8px;
     margin-right: -8px;
-    margin-left: -8px;
+    margin-left: -8px;*/
     border-bottom: 5px solid #3f3f3f;
 }
 .header-content {
@@ -37,9 +49,10 @@ header {
 
 .jumbotron2 {
     background-color: #3f3f3f;
-    margin-left: -8px;
+    width: 100%;
+   /* margin-left: -8px;
     margin-right: -8px;
-    
+    */
     
 }
 /*content*/
@@ -47,6 +60,11 @@ header {
 .h2-1, .h3-1 {
     text-align: center;
     font-family: 'Alegreya Sans', sans-serif;
+}
+.p-1 {
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 1.1em;
 }
 section {
     padding-left: 20px;
@@ -66,8 +84,9 @@ section {
 
 .text-1 {
     width: 45%;
+    margin: auto;
 }
-@media screen and (max-width:1000px){
+@media screen and (max-width:1245px){
     .table-1 {
         width:100%;
         margin: auto;
@@ -85,8 +104,8 @@ section {
 /* Table */
 
 .table-1 {
-    width: 45%;
-    
+   /* width: 45%;*/
+    margin: auto;
 }
 .table-1 {
     width:auto;
@@ -108,4 +127,9 @@ section {
     padding-left: 5px;
     padding-right: 5px;
     
+}
+
+/* Footer */
+footer{
+    height: 50px;
 }
